@@ -1,4 +1,4 @@
-name: NBS
+name: NBS - w3css theme
 type: theme
 base theme: drupal8_w3css_theme
 core_version_requirement: ^8 || ^9

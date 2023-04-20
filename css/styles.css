@@ -23,9 +23,85 @@
 .w3-hover-text-theme:hover {color:#f4c24e !important}
 .w3-hover-border-theme:hover {border-color:#f4c24e !important}
 */
+.page-wrapper.w3-animate-opacity {
+  animation:none !important;
+}
+
 h2.w3-block-title {
   font-weight: 400;
   font-size: 20px;
   padding: 4px 8px !important;
   margin: 5px 0;
+}
+/* Override the font of the body text */
+body {
+  font-family:Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+/* Override the headings font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 5px 0 !important;
+}
+/* Fix styling for metadata details */
+#drupal-off-canvas {
+	color: white;
+}
+
+h1.details-title {
+	color: white;
+	line-height: 1;
+	font-size: 30px;
+}
+
+h2.details-project  {
+ font-size: 24px;
+}
+
+/* Center the slideshow  */
+#block-views-block-sentinel-slideshow-view-block-1 {
+	width: auto;
+	margin: auto;
+}
+#views_slideshow_cycle_teaser_section_sentinel_slideshow_view-block_1 {
+	margin: 0 auto;
+}
+
+.site-name a {
+        text-transform: none;
+	font-weight: bold;
+	line-height: 2.5;
+}
+
+.site-slogan {
+        text-transform: none;
+}
+
+.ul-parent-account {
+        font-family:Helvetica, Arial, sans-serif !important;
+}
+
+#block-languageswitcher-2 {
+	margin-left: 15px;
+        display: inline-block;
+}
+
+.language-link {
+        font-size: 16px;
+}
+
+#footer-container {
+   background-color: white !important;
+}
+
+a {
+   color: #2e70b1;
 }

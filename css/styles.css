@@ -105,3 +105,9 @@ h2.details-project  {
 a {
    color: #2e70b1;
 }
+/* Footer images*/
+span.nbs-footer > a > img {
+        display: unset !important;
+}
+
+

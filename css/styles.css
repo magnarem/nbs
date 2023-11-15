@@ -97,3 +97,15 @@ h2.details-project  {
 .language-link {
         font-size: 16px;
 }
+
+#footer-container {
+   background-color: white !important;
+}
+
+a {
+   color: #2e70b1;
+}
+/* Footer images*/
+span.nbs-footer > a > img {
+        display: unset !important;
+}
